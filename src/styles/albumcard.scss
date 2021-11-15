@@ -1,0 +1,24 @@
+.my-container{
+    max-width: 60%;
+    margin: auto;
+    height: 100%;
+}
+.my-bg-dark{
+    background-color: rgba($color: #52525263, $alpha: 1.0);
+}
+
+.my-card-container{
+    height: 280px;
+}
+.dimensione-img{
+    width: 150px;
+    height: 150px;
+}
+
+h5{
+    font-size: 1rem;
+}
+.small-text{
+    font-size: .8rem;
+    color: lightgray;
+}
