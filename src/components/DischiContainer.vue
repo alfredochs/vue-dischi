@@ -1,6 +1,6 @@
 <template>
   <div class="my-container">
-    <h1 class="text-white">Lista degli album</h1>
+    <!-- <h1 class="text-white">Lista degli album</h1> -->
 
     <div class="row row-cols-1 row-cols-md-5 g-4">
       <div class="col" v-for="(chiave, i) in listaAlbum" :key="i">

@@ -1,10 +1,11 @@
 .my-container{
-    max-width: 60%;
+    max-width: 70%;
     margin: auto;
     height: 100%;
+    padding: 50px;
 }
 .my-bg-dark{
-    background-color: rgba($color: #52525263, $alpha: 1.0);
+    background-color: #2B3A46;
 }
 
 .my-card-container{
@@ -21,4 +22,9 @@ h5{
 .small-text{
     font-size: .8rem;
     color: lightgray;
+}
+
+header{
+    height: 70px;
+    background-color: #2B3A46;
 }

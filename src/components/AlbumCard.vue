@@ -1,6 +1,16 @@
 <template>
-  <div class="card border-0 my-bg-dark text-white my-card-container">
-    <img :src="poster" class="card-img-top dimensione-img" alt="..." />
+  <div
+    class="
+      card
+      border-0
+      my-bg-dark
+      text-white
+      my-card-container
+      d-flex
+      align-items-center
+    "
+  >
+    <img :src="poster" class="card-img-top dimensione-img p-3" alt="..." />
     <div class="card-body d-flex flex-column text-center">
       <h5 class="card-title">{{ title }}</h5>
       <div class="small-text">{{ author }}</div>

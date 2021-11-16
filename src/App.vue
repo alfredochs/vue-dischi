@@ -1,6 +1,9 @@
 <template>
-  <div class="bg-dark pagina-intera">
-    <DischiContainer></DischiContainer>
+  <div>
+    <div>
+      <header></header>
+      <DischiContainer></DischiContainer>
+    </div>
   </div>
 </template>
 
@@ -16,5 +19,6 @@ export default {
 @import "@/styles/app";
 body {
   font-family: "Montserrat";
+  background-color: #192d3c;
 }
 </style>
