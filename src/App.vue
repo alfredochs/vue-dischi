@@ -2,6 +2,7 @@
   <div>
     <div>
       <header></header>
+      <!-- <Select></Select> -->
       <DischiContainer></DischiContainer>
     </div>
   </div>
@@ -9,6 +10,7 @@
 
 <script>
 import DischiContainer from "./components/DischiContainer.vue";
+// import Select from "./components/Select.vue";
 export default {
   components: { DischiContainer },
   name: "App",
