@@ -75,7 +75,7 @@ export default {
       }
       return this.listaAlbum.filter(
         (album) => {
-          return this.prova === album.genre;
+          return this.salvaOgniGenere === album.genre;
         }
         // console.log(genere);
         // debugger;
